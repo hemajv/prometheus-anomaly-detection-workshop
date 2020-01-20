@@ -24,3 +24,24 @@ In this workshop you will learn how to use the Prometheus Anomaly Detection fram
     - Grafana
     - Metrics
     - Time series
+
+The repository contains the following contents: 
+
+* a [`doc`](./doc) folder, containing:
+    1. [`abstract.md`](./doc/abstract.md) the workshop abstract.
+
+* a [`slides`](./slides) folder containing:
+    1. [`rendered`](./rendered) rendered `.pdf` file of the slides
+    2. [`source`](./source) containing the source for the slides, either as a [powerpoint](./source/slides.pptx)
+
+* a [`workshop.yaml`](./workshop.yaml) file, holding the following machine readable metadata:
+    - name
+    - authors
+    - workshop duration
+    - source repo
+    - keywords
+
+* a [`source`](./source) folder, containing:
+    1. Jupyter notebooks required to give the workshop
+    2. data needed for the workshop
+    3. a [`README.md`](./source/README.md) file, explaining all of the contents of the [`source`](./source) folder.
