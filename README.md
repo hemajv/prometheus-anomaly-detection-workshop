@@ -17,13 +17,13 @@ The repository contains the following contents:
     1. [`abstract.md`](./doc/abstract.md) the workshop abstract.
 
 * a [`slides`](./slides) folder containing:
-    1. [`rendered`](./rendered) rendered `.pdf` file of the slides
-    2. [`source`](./source) containing the source for the slides, either as a [powerpoint](./source/slides.pptx)
+    1. [`rendered`](./rendered) rendered [pdf](./slides/rendered/I%20See%20Metrics_%20Anomaly%20Detection%20on%20OpenShift.pdf) file of the slides
+    2. [`source`](./source) containing the source for the slides, as a [powerpoint](./slides/source/I%20See%20Metrics_%20Anomaly%20Detection%20on%20OpenShift.pptx)
 
 * a [`source`](./source) folder, containing:
     1. Jupyter notebooks required to give the workshop
     2. data needed for the workshop
-    3. a [`README.md`](./source/README.md) file, explaining all of the contents of the [`source`](./source) folder.
+    3. a [`README.md`](./source/README.md) file, explaining all of the contents of the [`source`](./source) folder
     
 *  a [`workshop.yaml`](./workshop.yaml) file, holding the following machine readable metadata:
     - name
