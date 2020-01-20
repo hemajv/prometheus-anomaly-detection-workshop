@@ -2,11 +2,11 @@
 name: "Prometheus Anomaly Detection"
 authors: 
   - name: "Hema Veeradhi"
-	email: hveeradh@redhat.com
+    email: hveeradh@redhat.com
   - name: "Anand Sanmukhani"
-	email: asanmukh@redhat.com
+    email: asanmukh@redhat.com
   - name: "Michael Clifford"
-	email: mcliff@redhat.com
+    email: mcliff@redhat.com
     
 duration: "90 minutes"
 keywords: 
