@@ -1,18 +1,21 @@
 --- 
-name: "TITLE OF WORKSHOP HERE"
+name: "Prometheus Anomaly Detection"
 authors: 
-  - 
-    name: "Shadowman1"
-    email: 
-  - 
-    name: "Shadowman2"
-    email: 
-duration: "120 minutes"
+  - name: "Hema Veeradhi"
+	email: hveeradh@redhat.com
+  - name: "Anand Sanmukhani"
+	email: asanmukh@redhat.com
+  - name: "Michael Clifford"
+	email: mcliff@redhat.com
+    
+duration: "90 minutes"
 keywords: 
+  - Prometheus
   - OpenShift
   - "machine learning"
   - AI
   - Jupyter
   - Python
-  - workflow
-repo: "link to githubrepo here"
+  - Grafana
+  - metrics
+repo: "https://github.com/AICoE/prometheus-anomaly-detector"
