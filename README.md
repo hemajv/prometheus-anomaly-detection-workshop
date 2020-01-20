@@ -10,9 +10,9 @@ In this workshop you will learn how to use the Prometheus Anomaly Detection fram
 * Train machine learning models to perform time series forecasting 
 * Use Grafana to create insightful dashboards and setup alerts
 
-**Workshop Duration: 90 minutes**
+**Workshop Duration**: 90 minutes
 
-**Source: https://github.com/AICoE/prometheus-anomaly-detector**
+**Source**: https://github.com/AICoE/prometheus-anomaly-detector
 
 **Keywords**:
     Prometheus
