@@ -1,36 +1,26 @@
-# Reproducible workshop materials
+# I See Metrics: Anomaly Detection on OpenShift
 
-This repository contains the materials and resources you need to create a reproducible workshop.
+## Workshop Abstract
+Monitoring with Prometheus is becoming a common pattern for cloud native applications. But knowing what metrics to record and how to find relevance is a challenging task. How can AI-based solutions help us automate the process of identifying and alerting when metrics behave differently and also augment human introspection?
 
-To get started with your own reproducible workshop, clone this repo and make sure your put all the required resources into your own copy. Many of the documents contain prompts for suggested content - take a look!
+In this workshop you will learn how to use the Prometheus Anomaly Detection framework to enhance your metrics automation. We will walk you through the process of deploying and operating your own anomaly detection framework. You will walk away from this workshop knowing how to:
+* Setup a sample application to generate metrics
+* Configure Prometheus to collect the metrics
+* Use Python (Prometheus API client library) to transform metrics into a suitable format
+* Train machine learning models to perform time series forecasting 
+* Use Grafana to create insightful dashboards and setup alerts
 
-The repository contains the following contents: 
+**Workshop Duration: 90 minutes**
 
-* a [`doc`](./doc) folder, containing two files:
-    1. [`for-presenters.md`](./doc/for-presenters.md) should contain information to aid the presenter of the workshop - from background material adding context, to more general information on the structure and flow of the workshop, detailed information about the workshop content and any other suggestions for the presenter. 
-    2. [`abstract.md`](./doc/abstract.md) should contain the workshop abstract.
+**Source: https://github.com/AICoE/prometheus-anomaly-detector**
 
-* a [`deploy`](./deploy) folder, containing: 
-    1. [`deploy.md`](./deploy/deploy.md) which gives clear instructions on how to deploy the workshop both within and outside of RHPDS.
-    2. a [`templates`](./deploy/templates) folder, containing any OpenShift templates required to deploy the workshop, as well as any Ansible roles and playbooks.
-
-* a [`slides`](./slides) folder containing:
-    1. [`rendered`](./rendered) which should contain a [slides.pdf](./rendered/slides.pdf) file of the slides, as well as any rendered videos which are to be shown in the workshop
-    2. [`source`](./source) containing the source for the slides, either as a [powerpoint](./source/slides.pptx), google doc or keynote file.      
-
-* a [`README.md`](.README.md) file, containing basic, high-level information about the lab. It should contain the lab title, abstract, keywords, intended workshop length(s) and any other relevant information. 
-
-* a [`workshop.yaml`](./workshop.yaml) file, holding the following machine readable metadata:
-    - name
-    - authors
-    - workshop duration
-    - source repo
-    - keywords
-
-* a [`source`](./source) folder, containing:
-    1. any code or Jupyter notebooks required to give the workshop
-    2. data needed for the workshop
-    3. a [`README.md`](./source/README.md) file, explaining all of the contents of the [`source`](./source) folder. 
-
-
-
+**Keywords**:
+    Prometheus
+    - OpenShift
+    - Machine Learning
+    - AI
+    - Jupyter
+    - Python
+    - Grafana
+    - Metrics
+    - Time series
