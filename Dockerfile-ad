@@ -2,6 +2,6 @@ FROM quay.io/jupyteronopenshift/s2i-minimal-notebook-py36
 
 USER 0
 
-COPY --chown=1001:root ./source/anomaly-detection/*.ipynb /opt/app-root/src/
+COPY --chown=1001:root ./source/anomaly-detection/. /opt/app-root/src/
 USER 1001
 RUN jupyter trust *.ipynb
