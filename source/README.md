@@ -14,4 +14,5 @@ This folder contains:
              3. Other `.json` files which contain much smaller sample sizes of metric data
   2. an [`Introduction_TimeSeries_Anomaly_Detection.ipynb`](./anomaly-detection/Introduction_TimeSeries_Anomaly_Detection.ipynb) notebook, where we will learn how to build a machine learning model to perform time series forecasting and predict anomalies
 * a [`prometheus-api-client`](./prometheus-api-client) folder, which contains:      
-  1. an [`Introduction_Prometheus_API_Client.ipynb`](./Introduction_Prometheus_API_Client.ipynb) notebook, where we will explore how to use the Prometheus API Client library for fetching and manipulating metric data from a Prometheus host
+  1. an [`(Exercises) Introduction_Prometheus_API_Client`](./prometheus-api-client/(Exercises)%20Introduction_Prometheus_API_Client.ipynb) notebook where you will explore and solve few exercises on using the Prometheus API client.
+  2. an [`(Solutions) Introduction_Prometheus_API_Client`](./prometheus-api-client/(Solutions)%20Introduction_Prometheus_API_Client.ipynb) notebook where you will find the solutions to the exercises.
